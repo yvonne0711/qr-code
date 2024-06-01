@@ -1,2 +1,29 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+    border: 1px solid red;
+}
+
+/* whole body using the google font Outfit */
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body h1 {
+    font-weight: 700;
+}
+
+body p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
