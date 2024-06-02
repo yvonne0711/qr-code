@@ -15,9 +15,9 @@ body {
     /* individual items centre on main axis */
     align-items: center;
     justify-content: space-around;
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
-    min-height: 100;
+    /* body filling up the viewport */
+    /* making everything within the body to be 100% of the viewport height */
+    min-height: 100vh;
 }
 
 body h1 {
@@ -29,9 +29,9 @@ body p {
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    
 }
 
+/* card */
 .container {
     display: flex;
     flex-direction: column;
@@ -39,6 +39,23 @@ body p {
     align-items: center;
     background-color: hsl(0, 0%, 100%);
     border: 10px solid black;
+    /* size of element
+    width: 50%;
+    max-width: 600px;
+    height: 300px;
+    moving the position based on the parent size
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    moving the element based on the element size (half the width of the container, half height of container)
+    transform: translate(-50%, -50%);*/
+}
+
+/* qr image */
+img {
+    border-radius: 2%;
+    /* left:50%;
+    top:50%; */
 }
 
 /* attribution */
