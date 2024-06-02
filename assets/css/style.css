@@ -14,21 +14,12 @@ body {
     flex-direction: column;
     /* individual items centre on main axis */
     align-items: center;
-    justify-content: space-around;
+    /* space each item evenly in a column */
+    justify-content: space-evenly;
     /* body filling up the viewport */
     /* making everything within the body to be 100% of the viewport height */
     min-height: 100vh;
-}
-
-body h1 {
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
-}
-
-body p {
-    font-size: 15px;
-    font-weight: 400;
-    color: hsl(220, 15%, 55%);
+    /* position: relative; */
 }
 
 /* card */
@@ -38,7 +29,8 @@ body p {
     /* individual items in the card centre on main axis */
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    border: 10px solid black;
+    padding: 25px;
+    width: 17%;
     /* size of element
     width: 50%;
     max-width: 600px;
@@ -54,9 +46,24 @@ body p {
 /* qr image */
 img {
     border-radius: 2%;
+    max-width: 100%;
     /* left:50%;
     top:50%; */
 }
+
+body h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+
+body p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
 
 /* attribution */
 .attribution { 
