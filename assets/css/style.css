@@ -5,14 +5,24 @@
 /* whole body using the google font Outfit */
 
 body {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: hsl(212, 45%, 89%);
+    /* makes the whole body centred, each section centred */
+    display: flex;
+    flex-direction: column;
+    /* individual items centre on main axis */
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    min-height: 100;
 }
 
 body h1 {
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 body p {
@@ -22,12 +32,16 @@ body p {
     
 }
 
-/* card */
-#qr-code {
+.container {
+    display: flex;
+    flex-direction: column;
+    /* individual items in the card centre on main axis */
+    align-items: center;
     background-color: hsl(0, 0%, 100%);
     border: 10px solid black;
 }
 
+/* attribution */
 .attribution { 
     font-size: 11px;
     text-align: center;
