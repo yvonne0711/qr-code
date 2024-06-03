@@ -2,6 +2,58 @@
     border: 1px solid red;
 } */
 
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+html {
+  font-size: 16px;
+}
+
 /* whole body using the google font Outfit */
 
 body {
@@ -30,7 +82,7 @@ body {
     align-items: center;
     background-color: hsl(0, 0%, 100%);
     padding: 25px;
-    width: 17%;
+    width: 20rem;
     border-radius: 20px;
     /* horizontal offset, vertical offset, blur radius */
     box-shadow: 0 0 10px grey;
@@ -78,3 +130,4 @@ body p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
